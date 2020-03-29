@@ -106,6 +106,7 @@
       <version>${slf4j.version}</version>
     </dependency>
     <!-- log end -->
+    
     <dependency>
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis</artifactId>
