@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <environments default="mysql">
+        <environment id="mysql">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"></property>
+                <property name="url" value="jdbc:mysql://www.wangjun.com:3306/wangjun?useSSL=false&#38;useUnicod=true&#38;characterEncoding=utf-8"></property>
+                <property name="username" value="root"></property>
+                <property name="password" value="wangjun"></property>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <package name="com.wj.ssm.dao"/>
+    </mappers>
+
+</configuration>
