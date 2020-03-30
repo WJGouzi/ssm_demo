@@ -13,7 +13,7 @@ import java.util.List;
  * @Author : Created By wangjun, Copyright © wangjun All Rights Reserved
  * @Date : 2020/3/29 15:26
  **/
-@Repository("accountDao")
+@Repository
 public interface AccountDao {
 
     /**
